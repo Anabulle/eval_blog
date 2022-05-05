@@ -49,6 +49,7 @@ if (isset($_POST['valider'])) {
                 echo "les informations sont érronées";
             } else if ($asso_pseudo->pseudo_user === $_POST['pseudo_user'] and password_verify($mdp, $hash)) {
                 $_SESSION['role'] = $role;
+                $_SESSION['user'] = $asso_pseudo->pseudo_user;
                 header('Location: index.php');
             }
         } else {

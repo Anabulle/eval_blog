@@ -45,10 +45,14 @@ include 'requete.php';
                     $role = 1;
                     create_user($pseudo, $mdp, $role);
                     header('Location: index.php');
+                    $_SESSION['role'] = $role;
+                    $_SESSION['user'] = $pseudo;
                 } else {
                     $role = 2;
                     create_user($pseudo, $mdp, $role);
                     header('Location: index.php');
+                    $_SESSION['role'] = $role;
+                    $_SESSION['user'] = $pseudo;
                 }
             }
         } else {

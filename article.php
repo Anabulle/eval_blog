@@ -25,6 +25,22 @@ include 'requete.php';
         <p><?= $article->content_article ?></p>
         <p><?= $article->auteur_article ?></p>
     </div>
+    
+   <!--  /*
+   if($_SESSION['user']){
+        ?>
+        <form action="" method="POST" id="bloc">
+            <p>votre commentaire ici</p>
+            <textarea name="comm" id="comm"></textarea>
+        </form>
+       
+    }
+    $comm = 
+    foreach($comm as $value){
+
+    }
+    */
+ -->
 </body>
 
 </html>

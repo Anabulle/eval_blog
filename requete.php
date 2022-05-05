@@ -46,3 +46,11 @@ function create_article($img,$title,$auteur,$content){
     $req = $db->prepare($sql);
     $req->execute([":img_article"=>$img,":title_article"=>$title,":auteur_article"=>$auteur,":content_article"=>$content ]);
 }
+
+function affiche_comm() {
+    $db = connexion_BD();
+    $sql = "SELECT * FROM comm";
+    $req = $db->query($sql);
+    $data = $req->fetchAll(PDO::FETCH_OBJ);
+    return $data;
+}
