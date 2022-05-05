@@ -1,0 +1,6 @@
+blog website in php,
+use blog.sql in phpmyadmin to use database with this website
+admin id => admin;
+admin mdp => admin123;
+user id => pouet;
+user mdp => pouet123;

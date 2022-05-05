@@ -1,0 +1,102 @@
+img {
+    width: 900px;
+}
+
+#img {
+    margin-top: 2rem;
+    color: beige;
+    font-size: 1.3rem;
+}
+
+.image {
+    width: 300px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    color: indianred;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: sandybrown;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+p {
+    width: 900px;
+    margin: 2rem;
+    font-size: 1.3rem;
+    color: beige;
+}
+
+label {
+    color: beige;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem
+}
+
+form div input {
+    width: 15rem;
+    padding: 10px;
+}
+
+#submit {
+    margin-top: 2rem;
+    border: 2px solid beige;
+    background-color: rgb(47, 21, 21);
+    padding: 1rem 2rem 1rem 2rem;
+    color: beige;
+    font-size: 1.3rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+body {
+    background-color: rgb(47, 21, 21);
+    overflow-x: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid beige;
+    border-radius: 10px;
+    width: 400px;
+    padding: 2rem;
+    margin: auto;
+}
+
+#bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid beige;
+    border-radius: 10px;
+    width: 900px;
+    padding: 2rem;
+    margin: auto;
+}
+
+form textarea {
+    margin-top: 2rem;
+    width: 50rem;
+    height: 30rem;
+    padding: 10px;
+}
